@@ -1,0 +1,120 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "myazuredatafactorybabe"
+		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage2_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage3_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage4_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage5_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage6_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage7_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage8_accountKey": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_password": {
+			"value": ""
+		},
+		"AzureSqlDatabase2_password": {
+			"value": ""
+		},
+		"AzureSqlDatabase3_password": {
+			"value": ""
+		},
+		"FileServer1_password": {
+			"value": ""
+		},
+		"foreach_raw_accountKey": {
+			"value": ""
+		},
+		"forloop_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://adbcloudstorage.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage2_properties_typeProperties_url": {
+			"value": "https://adbcloudstorage.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage3_properties_typeProperties_url": {
+			"value": "https://adbcloudstorage.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage4_properties_typeProperties_url": {
+			"value": "https://adbcloudstorage.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage5_properties_typeProperties_url": {
+			"value": "https://adbcloudstorage.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage6_properties_typeProperties_url": {
+			"value": "https://adbcloudstorage.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage7_properties_typeProperties_url": {
+			"value": "https://adbcloudstorage.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage8_properties_typeProperties_url": {
+			"value": "https://adbcloudstorage.dfs.core.windows.net/"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_server": {
+			"value": "testmysqldatabase.database.windows.net"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_database": {
+			"value": "testdb"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_userName": {
+			"value": "user"
+		},
+		"AzureSqlDatabase2_properties_typeProperties_server": {
+			"value": "testmysqldatabase.database.windows.net"
+		},
+		"AzureSqlDatabase2_properties_typeProperties_database": {
+			"value": "testdb"
+		},
+		"AzureSqlDatabase2_properties_typeProperties_userName": {
+			"value": "user"
+		},
+		"AzureSqlDatabase3_properties_typeProperties_server": {
+			"value": "testmysqldatabase.database.windows.net"
+		},
+		"AzureSqlDatabase3_properties_typeProperties_database": {
+			"value": "testdb"
+		},
+		"AzureSqlDatabase3_properties_typeProperties_userName": {
+			"value": "user"
+		},
+		"FileServer1_properties_typeProperties_host": {
+			"value": "\\Users\\vigne\\Downloads\\"
+		},
+		"FileServer1_properties_typeProperties_userId": {
+			"value": "vigne"
+		},
+		"foreach_raw_properties_typeProperties_url": {
+			"value": "https://adbcloudstorage.dfs.core.windows.net/"
+		},
+		"forloop_properties_typeProperties_url": {
+			"value": "https://adbcloudstorage.dfs.core.windows.net/"
+		},
+		"trigger1_properties_typeProperties_scope": {
+			"value": "/subscriptions/1444c30e-c27f-4666-8aca-f8e358773f49/resourceGroups/cloud-practice/providers/Microsoft.Storage/storageAccounts/adbcloudstorage"
+		}
+	}
+}
